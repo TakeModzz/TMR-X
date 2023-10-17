@@ -48,7 +48,7 @@ TMRX["7"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.f
 
 -- TMRX.Main.Sidebar.UIStroke
 TMRX["8"] = Instance.new("UIStroke", TMRX["6"]);
-TMRX["8"]["Color"] = Color3.fromRGB(255, 0, 0);
+TMRX["8"]["Color"] = Color3.fromRGB(31, 240, 255); 
 TMRX["8"]["Thickness"] = 2;
 TMRX["8"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
@@ -247,7 +247,7 @@ TMRX["20"]["Name"] = [[Topbar]];
 -- TMRX.Main.FrameM.Topbar..
 TMRX["21"] = Instance.new("Frame", TMRX["20"]);
 TMRX["21"]["BorderSizePixel"] = 0;
-TMRX["21"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["21"]["BackgroundColor3"] = Color3.fromRGB(31, 240, 255); 
 TMRX["21"]["Size"] = UDim2.new(0.9577702879905701, 0, 0.03333333134651184, 0);
 TMRX["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 TMRX["21"]["Position"] = UDim2.new(0.01518856268376112, 0, 0.8499999642372131, 0);
@@ -314,7 +314,7 @@ TMRX["27"]["TextScaled"] = true;
 TMRX["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 TMRX["27"]["TextSize"] = 35;
 TMRX["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-TMRX["27"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["27"]["TextColor3"] = Color3.fromRGB(31, 240, 255); 
 TMRX["27"]["Size"] = UDim2.new(0.0717124342918396, 0, 0.6166666150093079, 0);
 TMRX["27"]["Name"] = [[Close]];
 TMRX["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -961,7 +961,7 @@ TMRX["74"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.
 
 -- TMRX.FloatingIcon.UIStroke
 TMRX["75"] = Instance.new("UIStroke", TMRX["72"]);
-TMRX["75"]["Color"] = Color3.fromRGB(255, 0, 0);
+TMRX["75"]["Color"] = Color3.fromRGB(31, 240, 255); 
 TMRX["75"]["Thickness"] = 2;
 TMRX["75"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
