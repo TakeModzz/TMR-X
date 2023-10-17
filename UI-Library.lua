@@ -29,7 +29,7 @@ TMRX["4"]["CornerRadius"] = UDim.new(0.05000000074505806, 0);
 
 -- TMRX.Main.UIStroke
 TMRX["5"] = Instance.new("UIStroke", TMRX["2"]);
-TMRX["5"]["Color"] = Color3.fromRGB(0, 166, 255); 
+TMRX["5"]["Color"] = Color3.fromRGB(31, 240, 255);  
 TMRX["5"]["Thickness"] = 2;
 TMRX["5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
@@ -190,7 +190,7 @@ TMRX["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 TMRX["1a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 TMRX["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 TMRX["1a"]["TextSize"] = 14;
-TMRX["1a"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["1a"]["TextColor3"] = Color3.fromRGB(31, 240, 255);
 TMRX["1a"]["Size"] = UDim2.new(0.9578946828842163, 0, 1, 0);
 TMRX["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 TMRX["1a"]["Text"] = [[Welcome to TMR X.]];
@@ -423,7 +423,7 @@ TMRX["35"]["CornerRadius"] = UDim.new(0.25, 0);
 
 -- TMRX.Reserved.Input.TextBox.UIStroke
 TMRX["36"] = Instance.new("UIStroke", TMRX["33"]);
-TMRX["36"]["Color"] = Color3.fromRGB(255, 0, 0);
+TMRX["36"]["Color"] = Color3.fromRGB(31, 240, 255);
 TMRX["36"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 -- TMRX.Reserved.Label
@@ -545,7 +545,7 @@ TMRX["42"]["Position"] = UDim2.new(0.020999999716877937, 0, 0.07500000298023224,
 -- TMRX.Reserved.Slider.Slider
 TMRX["43"] = Instance.new("Frame", TMRX["3f"]);
 TMRX["43"]["BorderSizePixel"] = 0;
-TMRX["43"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["43"]["BackgroundColor3"] = Color3.fromRGB(31, 240, 255);
 TMRX["43"]["Size"] = UDim2.new(0.9640404582023621, 0, 0.42245224118232727, 0);
 TMRX["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 TMRX["43"]["Position"] = UDim2.new(0.013921162113547325, 0, 0.43809860944747925, 0);
@@ -558,7 +558,7 @@ TMRX["44"]["CornerRadius"] = UDim.new(0.15000000596046448, 0);
 -- TMRX.Reserved.Slider.Slider.Fill
 TMRX["45"] = Instance.new("Frame", TMRX["43"]);
 TMRX["45"]["BorderSizePixel"] = 0;
-TMRX["45"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["45"]["BackgroundColor3"] = Color3.fromRGB(31, 240, 255);
 TMRX["45"]["Size"] = UDim2.new(0, 0, 1.0000001192092896, 0);
 TMRX["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 TMRX["45"]["Name"] = [[Fill]];
@@ -598,7 +598,7 @@ TMRX["49"]["Position"] = UDim2.new(0.018827326595783234, 0, 0.1483808159828186, 
 TMRX["4a"] = Instance.new("TextButton", TMRX["43"]);
 TMRX["4a"]["Active"] = false;
 TMRX["4a"]["BorderSizePixel"] = 0;
-TMRX["4a"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["4a"]["BackgroundColor3"] = Color3.fromRGB(31, 240, 255);
 TMRX["4a"]["Selectable"] = false;
 TMRX["4a"]["Size"] = UDim2.new(1, 0, 1, 0);
 TMRX["4a"]["Name"] = [[Trigger]];
@@ -790,7 +790,7 @@ TMRX["5e"]["Position"] = UDim2.new(0, 0, 0.1428571492433548, 0);
 
 -- TMRX.Reserved.Dropdown.SelectedOption.UIStroke
 TMRX["5f"] = Instance.new("UIStroke", TMRX["5b"]);
-TMRX["5f"]["Color"] = Color3.fromRGB(255, 0, 0);
+TMRX["5f"]["Color"] = Color3.fromRGB(31, 240, 255);
 TMRX["5f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 -- TMRX.Reserved.Toggle
@@ -881,7 +881,7 @@ TMRX["6c"] = Instance.new("TextButton", TMRX["2b"]);
 TMRX["6c"]["TextWrapped"] = true;
 TMRX["6c"]["BorderSizePixel"] = 0;
 TMRX["6c"]["AutoButtonColor"] = false;
-TMRX["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+TMRX["6c"]["BackgroundColor3"] = Color3.fromRGB(31, 240, 255); 
 TMRX["6c"]["TextSize"] = 14;
 TMRX["6c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 TMRX["6c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
@@ -1267,7 +1267,7 @@ function module.NewTab(title, icon)
 		newToggle.Name = title
 		
 		if bool == true then
-			newToggle.Background.Fill.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			newToggle.Background.Fill.BackgroundColor3 = Color3.fromRGB(31, 240, 255)
 		elseif bool == false then
 			newToggle.Background.Fill.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
 		end
@@ -1285,7 +1285,7 @@ function module.NewTab(title, icon)
 			bool = not bool
 			
 			if bool == true then
-				local Fade = TweenService:Create(newToggle.Background.Fill, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)})
+				local Fade = TweenService:Create(newToggle.Background.Fill, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(31, 240, 255)})
 				Fade:Play()
 			elseif bool == false then
 				local Fade = TweenService:Create(newToggle.Background.Fill, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(53, 53, 53)})
